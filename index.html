@@ -3,33 +3,88 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZîhnîYazılar | Bilim, Vahiy ve Derin Düşünce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Georgia, serif; max-width: 900px; margin: auto; padding: 20px; background: #fff9f0; color: #333; }
-        h1, h2 { color: #2c3e50; }
-        a { color: #007acc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { background: #ffffff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-        .header { display: flex; align-items: center; gap: 10px; }
-        .logo { width: 40px; height: 40px; border-radius: 50%; background: #ffc107; display: inline-block; }
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: #fefaf3;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
+            background: #ffc107;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #1d3557;
+            margin: 0;
+        }
+        .intro {
+            font-size: 1.1em;
+            margin: 10px 0 30px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 40px;
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #888;
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo"></div>
-        <h1>ZîhnîYazılar</h1>
+    <div class="container">
+        <div class="logo-title">
+            <div class="logo"></div>
+            <h1>ZîhnîYazılar</h1>
+        </div>
+        <p class="intro"><strong>Gökmen Zihni</strong> tarafından oluşturulmuş kişisel bir blogdur. Bilim, vahiy ve düşünce ekseninde yazılar içerir.</p>
+
+        <h2>📚 Yazılar</h2>
+        <ul>
+            <li><a href="tekvir.html">Kozmos ve Kıyamet: Tekvir Suresine Bilimsel Bir Bakış</a></li>
+            <li><a href="tarik.html">Târık Suresi ve Yaratılış: Modern Tefsir Yorumları</a></li>
+            <li><a href="plazma.html">Enerji, Maddenin Halleri ve Kur’an’da Plazma</a></li>
+        </ul>
+
+        <div class="footer">Ziyaretiniz için teşekkürler. | 2024 © Gökmen Zihni</div>
     </div>
-
-    <p><strong>Gökmen Zihni</strong> tarafından oluşturulmuş kişisel bir blogdur. Bilim, vahiy ve düşünce ekseninde yazılar içerir.</p>
-
-    <h2>📚 Yazılar</h2>
-    <ul>
-        <li><a href="tekvir.html">Kozmos ve Kıyamet: Tekvir Suresine Bilimsel Bir Bakış</a></li>
-        <li><a href="tarik.html">Târık Suresi ve Yaratılış: Modern Tefsir Yorumları</a></li>
-        <li><a href="plazma.html">Enerji, Maddenin Halleri ve Kur’an’da Plazma</a></li>
-    </ul>
-
-    <p style="margin-top: 40px;">Ziyaretiniz için teşekkürler.</p>
 </body>
 </html>
